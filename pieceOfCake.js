@@ -12,7 +12,7 @@ const rl = readline.createInterface({
 rl.on('line', (input) => {
     var nums = input.split(' '); //splitting the input and storing in an array
     var side = parseInt(nums[0]); //side is the first element in the input, 
-    // parseInt to convert the input to Integer type.
+    // parseInt to convert the input to number type.
     var h = parseInt(nums[1]);//h is second element in the input
     var v = parseInt(nums[2]);// v is the third element in the input. 
     var thickness = 4;
